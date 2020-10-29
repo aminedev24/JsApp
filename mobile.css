@@ -9,8 +9,8 @@
 
     #table , .container{
         position:relative !important;
-        right:3px important;
-        bottom: 9px important;
+        right:3px !important;
+        bottom: 9px !important;
     }
 
     td,th {

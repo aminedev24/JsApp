@@ -14,7 +14,7 @@
     }
 
     td,th {
-        min-width: 5.2pc;
+        min-width: 5.2pc !important;
     }
 
     .container {

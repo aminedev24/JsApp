@@ -1,6 +1,6 @@
 let save = document.getElementById('export')
 let save2 = document.getElementById('export_csv');
-
+let edit = document.querySelectorAll('#edit');
 //onclick="tableToExcel('testTable', 'W3C Example Table')"
 save.onclick= function (e){
     exportToExcel('testTable','Reports Of Products',e);

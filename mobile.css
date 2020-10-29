@@ -9,8 +9,19 @@
 
     #table , .container{
         position:relative;
-        right:8px;
+        right:3px;
+        bottom: 9px;
     }
 
-    
+    td,th {
+        min-width: 5.2pc;
+    }
+
+    .container {
+        width:25pc;
+    }
+
+    .clear {
+        margin-right: 90px;
+    }
 }

@@ -1,6 +1,6 @@
 let save = document.getElementById('export')
 let save2 = document.getElementById('export_csv');
-let edit = document.querySelectorAll('#edit');
+
 //onclick="tableToExcel('testTable', 'W3C Example Table')"
 save.onclick= function (e){
     exportToExcel('testTable','Reports Of Products',e);
@@ -17,6 +17,7 @@ function exportToExcel(table, filename = '',e){
     var tableSelect = document.getElementById('myTable');
     let button = document.getElementById('total');
     let num = document.querySelectorAll('.num');
+    let edit = document.querySelectorAll('#edit');
 
    // num.forEach((num)=>{
      //   num.remove();

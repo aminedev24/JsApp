@@ -1,0 +1,163 @@
+.container {
+    place-content: baseline;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    height: 14pc;
+    width: 26pc;
+    background-color: grey;
+    flex-wrap: wrap;
+}
+#score {
+    float: right;
+}
+
+.product {
+    position: relative;
+    margin-left: 15px;
+    align-self: baseline;
+}
+
+label {
+    /* position: absolute; */
+    /* float: left; */
+    
+    margin-top: 8px;
+}
+
+#add{
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-family: cursive;
+    border-color: cadetblue;
+    cursor: pointer;
+    margin-top: 15px;
+    color: darkslategrey;
+}
+
+#add:hover {
+  background-color:turquoise;
+}
+.clear {
+  margin-right: 8pc;
+}
+
+#tdColor {
+    width: 29px;
+    height: 14px;
+    /* margin: 0; */
+    border: solid 1px #aaa;
+    display: block;
+    margin: 0 auto;
+}
+
+#productImage {
+    width: 20px;
+    margin: 0 auto;
+    display: block;
+}
+
+#colorBtn {
+  background-color: #dddddd;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+tr {
+  background-color:darkseagreen;
+}
+
+.export {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 14px;
+    border-color: blueviolet;
+    cursor: pointer;
+    /* margin-top: 10pc; */
+}
+
+#export:hover {
+  background-color: #ea5757;
+}
+.options {
+  display: flex;
+  justify-content: center;
+  /* position: fixed; */
+  
+  bottom: 0;
+  /* transform: translate(20pc, -2px); */
+  margin-top: 20px;
+}
+
+.hidden{
+  visibility: hidden;
+  border: none;
+}
+
+.btns {
+  /* background-color: tomato; */
+}
+
+.pnum{
+  /* float: left; */
+  margin-right: 5px;
+}
+
+
+.p0total{
+  /* text-align: center; */
+}
+
+.edit{
+    position: relative;
+    /* top: 3px; */
+    display: none;
+    /* float: left; */
+}
+
+.num {
+  float: left;
+  /* margin-right: -5px; */
+}
+
+#price2,#date{
+  margin-right: 10pc;
+}
+
+#date {
+  left :31px;
+}
+
+br{
+  display:none;
+}
+
+.remove {
+  display : none;
+  position:absolute;
+}
+/*w3 */
+table {
+    margin: 0 auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    border: 1px solid #cc9797;
+    text-align: left;
+    padding: 8px;
+    min-width: 100px;
+  }
+  
+  /*
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+*/
+  td  {
+        background-color: #dddddd;
+  }

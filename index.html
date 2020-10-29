@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js app</title>
+    <link rel="stylesheet" href="style.css">
+    <script async src="dataToxl.js"></script>
+    <script async src="total.js"></script>
+</head>
+<body>
+    <div class="container">
+        <label for="name">Product name:</label> 
+        <input type="text" name="name" id="name" placeholder="Add your product" class='product clear'>
+        
+        <label for="price">Sell price:</label>
+        <input min='1' type="number" name="price" id="price1" placeholder="Sell price" class='product clear'>
+        <label for="price2">Buy price:</label>
+        <input type="number" min="1" name="price2" id="price2" placeholder="Buy price" class='product clear'>
+        <label for="date">Date:</label>
+        <input name="date" id="date" class="product clear" type="date" placeholder="Enter date">
+        <!--
+        <label for="color">Product color:</label>
+        <input name='color' id="color"  type="color" class="product clear" >
+        
+        <label for="image">Product image:</label>
+        <input hidden class="product clear" id='image' name="image" type="file" value='product image'>
+        <input id="colorBtn" type="button" value="Image" class='product clear'>
+        
+        -->
+       
+        <button id="add">Add product</button>
+    </div>
+
+    <div id="table">
+        <table id='myTable'>
+          <tbody id="tbody">
+            <tr>
+              <th>Produit</th>
+              <th>Prix1</th>
+              <th>Prix2</th>
+              <th>P&P</th>
+              <!--<th style='display:none'>Date</th>-->
+            </tr>
+            <tr id="myTr" rowspan='1'>
+              <!--<td>product name</td>-->
+              <!--<td>product price</td>-->
+            </tr>
+          </tbody>
+            
+            
+            
+          </table>
+    </div>
+ 
+    
+
+
+    
+<table class="options">
+  <td><button id="export" class="export" >Export As Excel</button></td>
+  <td><button id="export_csv" class="export">Export As Csv</button></td>
+</table>
+
+</body>
+
+<script src="rev.js"></script>
+</html>

@@ -33,5 +33,9 @@
     #date , #price2 {
        margin-right: 60px !important;
     }
+  
+    #date {
+      width: unset !important;
+    }
     
 }

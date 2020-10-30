@@ -10,16 +10,23 @@
     #table , .container{
         position:relative !important;
         right:8px !important;
-        bottom: 9px !important;
+        
     }
 
     td,th {
-        min-width: 5.2pc !important;
+        min-width: 4pc !important;
     }
 
     .container {
-        width:25pc !important;
+        width:20pc !important;
     }
+    .product {
+       margin-left: 5px;
+       width: 160px;
+     }
 
+    .clear {
+       margin-right: 20px;
+    }
     
 }

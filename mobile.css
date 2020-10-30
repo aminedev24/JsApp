@@ -27,7 +27,7 @@
      }
 
     .clear {
-       margin-right: 20px;
+       margin-right: 20px !important;
     }
  
     #date , #price2 {
@@ -36,6 +36,7 @@
   
     #date {
       width: 80px !important;
+      left : 0px !important;
     }
     
 }

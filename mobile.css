@@ -1,0 +1,57 @@
+@media only screen and (max-width: 700px){
+    
+    body {
+        background-color:lightblue;
+        font-size: 13px;
+    }
+
+    .export {
+        /* padding : 6px !important; */
+    }
+
+    #table , .options, .container{
+        position:relative !important;
+        left: 39px;
+    }
+    #myTable {
+      /* margin: 0 auto; */
+      /* right: 30px !important; */
+      position: relative !important;
+    }
+
+    td,th {
+        min-width: 4pc !important;
+    }
+
+    .container {
+        width: 23pc !important;
+    }
+
+    .product {
+       margin-left: 3px !important;
+       width: 160px;
+     }
+
+    .clear {
+       margin-right: 110px !important;
+       margin-bottom: 4px;
+    }
+ 
+    #date , #price2 {
+       margin-right: 138px !important;
+    }
+  
+    #date {
+      width: 126px !important;
+      left : 33px !important;
+    }
+
+    .selection{
+        width:12pc;
+    }
+
+    #products {
+        position:unset;
+    }
+    
+}

@@ -1,10 +1,20 @@
+*{
+  /* margin:0; */
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  height:100vh;
+  width:100vw;
+}
 .container {
     place-content: baseline;
     margin: 0 auto;
     display: flex;
     align-items: baseline;
     flex-direction: row;
-    height: 14pc;
+    height: 16pc;
     width: 26pc;
     background-color: grey;
     flex-wrap: wrap;
@@ -13,17 +23,17 @@
     float: right;
 }
 
-.product {
+.product , .selection {
     position: relative;
-    margin-left: 15px;
+    margin-left: 13px;
     align-self: baseline;
+    margin-top: 12px;
 }
 
 label {
     /* position: absolute; */
     /* float: left; */
-    
-    margin-top: 8px;
+    /* margin-top: 8px; */
 }
 
 #add{
@@ -41,6 +51,7 @@ label {
 }
 .clear {
   margin-right: 8pc;
+  
 }
 
 #tdColor {
@@ -64,10 +75,11 @@ label {
   cursor: pointer;
 }
 
+/*
 tr {
-  background-color:darkseagreen;
+  background-color: #89af89;
 }
-
+*/
 .export {
     background-color: red;
     color: white;
@@ -82,13 +94,15 @@ tr {
   background-color: #ea5757;
 }
 .options {
-  display: flex;
-  justify-content: center;
-  /* position: fixed; */
-  
-  bottom: 0;
+  /* display: flex; */
+  right: 32px !important;
+  position: relative;
+  /* justify-content: center; */
+  position: fixed;
+  /* bottom: 0; */
   /* transform: translate(20pc, -2px); */
   margin-top: 20px;
+  /* right: unset !important; */
 }
 
 .hidden{
@@ -115,11 +129,13 @@ tr {
     /* top: 3px; */
     display: none;
     /* float: left; */
+    margin: auto;
 }
 
 .num {
-  float: left;
-  /* margin-right: -5px; */
+  /* background-color: lightblue !important; */
+  text-align: right;
+  border: none !important;
 }
 
 #price2,#date{
@@ -138,26 +154,65 @@ br{
   display : none;
   position:absolute;
 }
+
+.selection {
+  margin-right: 10pc !important;
+  margin-left: unset;
+  top: 9px;
+  position: relative;
+  width: 13pc;
+}
+
+fieldset {
+  background-color: cadetblue;
+
+}
+
+legend{
+  background-color: #a57f86;
+  color: white;
+  font-size: small;
+  padding: 5px 10px;
+}
 /*w3 */
 table {
     margin: 0 auto;
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 50%;
+    position: relative;
+    /* right: 84px; */
   }
   
   td, th {
     border: 1px solid #cc9797;
-    text-align: left;
+    text-align: center;
     padding: 8px;
-    min-width: 100px;
+    min-width: 90px;
   }
   
-  /*
-  tr:nth-child(even) {
-    background-color: #dddddd;
+  
+  tr#thead > th {
+    background-color: lightseagreen;
   }
-*/
+
   td  {
-        background-color: #dddddd;
+        background-color: #ddd;
+  }
+
+  #name{
+    /* margin-top: 5px !important; */
+    width: 113px;
+  }
+
+  .names{
+    display: flex;
+    place-items: center;
+    margin-bottom: 11px;
+    align-items: baseline;
+    margin-top: -2px;
+  }
+
+  #products{
+    position: absolute;
   }

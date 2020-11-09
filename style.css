@@ -94,15 +94,11 @@ tr {
   background-color: #ea5757;
 }
 .options {
-  /* display: flex; */
-  right: 32px !important;
-  position: relative;
-  /* justify-content: center; */
-  position: fixed;
-  /* bottom: 0; */
-  /* transform: translate(20pc, -2px); */
-  margin-top: 20px;
-  /* right: unset !important; */
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 20px;
+
 }
 
 .hidden{
@@ -216,3 +212,7 @@ table {
   #products{
     position: absolute;
   }
+
+#myTable{
+  right:78px;
+}

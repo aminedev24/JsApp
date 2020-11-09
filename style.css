@@ -30,11 +30,6 @@ body{
     margin-top: 12px;
 }
 
-label {
-    /* position: absolute; */
-    /* float: left; */
-    /* margin-top: 8px; */
-}
 
 #add{
     background-color: aquamarine;
@@ -50,7 +45,7 @@ label {
   background-color:turquoise;
 }
 .clear {
-  margin-right: 8pc;
+  margin-right:9pc;
   
 }
 
@@ -135,7 +130,7 @@ tr {
 }
 
 #price2,#date{
-  margin-right: 10pc;
+  margin-right: 11pc;
 }
 
 #date {

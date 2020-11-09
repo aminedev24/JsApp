@@ -3,27 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jsApp - Easy Data Manager</title>
+    <title>js app</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
-    <!--<script async src="dataToxl.js"></script>-->
-    <script async src="tableToXl.js"></script>
 
+    <!--<link rel="stylesheet" href="bootstrap.min.css">-->
+    <!--<script async src="dataToxl.js"></script>-->
     <script async src="total.js"></script>
+    <script async  src="tableToXl.js"></script>
+
 </head>
 <body>
     <div class="container">
-        <label for="name">Product name:</label> 
-        <input type="text" name="name" id="name" placeholder="Add your product" class='product clear'>
+      <div class='names'>
+
+      
+        <label for="name">Product:</label> 
+        <input type="text" name="name" id="name" placeholder="Add your product" class='product'>
         
+        <div class='selection clear'>
+          <fieldset>
+            <legend>Or</legend>
+            <label for="products">Choose a product:</label>
+            <select name="products" id="products">
+              <option value="pyjama">pyjama</option>
+              <option value="robe">robe</option>
+              <option value="robe 2">robe 2</option>
+              <option value="pyjama 2">pyjama 2</option>
+            </select>
+            <br><br>
+          </fieldset>
+         
+        </div>
+      </div>
         <label for="price">Sell price:</label>
         <input min='1' type="number" name="price" id="price1" placeholder="Sell price" class='product clear'>
         <label for="price2">Buy price:</label>
         <input type="number" min="1" name="price2" id="price2" placeholder="Buy price" class='product clear'>
-        
-        <!--
         <label for="date">Date:</label>
         <input name="date" id="date" class="product clear" type="date" placeholder="Enter date">
+        <!--
         <label for="color">Product color:</label>
         <input name='color' id="color"  type="color" class="product clear" >
         
@@ -39,7 +58,8 @@
     <div id="table">
         <table id='myTable'>
           <tbody id="tbody">
-            <tr>
+            <tr id='thead'>
+              <th class="hidden"></th>
               <th>Produit</th>
               <th>Prix1</th>
               <th>Prix2</th>
@@ -67,6 +87,6 @@
 </table>
 
 </body>
-
+<script src='main.js'></script>
 <script src="rev.js"></script>
 </html>

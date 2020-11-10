@@ -38,12 +38,13 @@
     }
  
     #date , #price2 {
-       margin-right: 150px !important;
+       margin-right: 146px !important;
     }
   
     #date {
       width: 126px !important;
       left : 33px !important;
+      margin-right: 9pc !important;
     }
 
     .selection{

@@ -8,15 +8,15 @@ body{
   height:100vh;
   width:100vw;
 }
-.container {
+.containerCs {
     place-content: baseline;
     margin: 0 auto;
     display: flex;
     align-items: baseline;
-    flex-direction: row;
-    height: 16pc;
+    /* flex-direction: row; */
+    height: 15pc;
     width: 26pc;
-    background-color: grey;
+    background-color: cadetblue;
     flex-wrap: wrap;
 }
 #score {
@@ -25,11 +25,16 @@ body{
 
 .product , .selection {
     position: relative;
-    margin-left: 13px;
+    margin-left: 3px;
     align-self: baseline;
-    margin-top: 12px;
+    float: left;
+    margin-top: 14px;
 }
 
+label {
+    margin-top: 15px;
+    margin-left: 7px;
+}
 
 #add{
     background-color: aquamarine;
@@ -45,8 +50,7 @@ body{
   background-color:turquoise;
 }
 .clear {
-  margin-right:9pc;
-  
+  margin-right: 8pc;
 }
 
 #tdColor {
@@ -89,11 +93,12 @@ tr {
   background-color: #ea5757;
 }
 .options {
-    display: flex;
-    position: relative;
-    justify-content: center;
-    margin-top: 20px;
-
+  display: flex;
+  right: 32px !important;
+  position: relative;
+  justify-content: center;
+  margin-top: 20px;
+  FONT-WEIGHT: 500;
 }
 
 .hidden{
@@ -117,9 +122,10 @@ tr {
 
 .edit{
     position: relative;
-    /* top: 3px; */
+    top: 3px;
     display: none;
     /* float: left; */
+    background-color: ;
     margin: auto;
 }
 
@@ -130,11 +136,11 @@ tr {
 }
 
 #price2,#date{
-  margin-right: 11pc;
+  margin-right: 10pc;
 }
 
 #date {
-  left :31px;
+  left: 29px;
 }
 
 br{
@@ -147,12 +153,12 @@ br{
 }
 
 .selection {
-  margin-right: 10pc !important;
+  margin-right: 9pc !important;
   margin-left: unset;
-  top: 9px;
+  top: 6px;
   position: relative;
-  width: 13pc;
-  display:inline-grid;
+  width: 12.8pc;
+  left: 102px;
 }
 
 fieldset {
@@ -161,11 +167,25 @@ fieldset {
 }
 
 legend{
-  background-color: #a57f86;
+  /* background-color: #a57f86 !important; */
   color: white;
-  font-size: small;
+  font-size: small !important;
   padding: 5px 10px;
+  left: 113px;
+  position: relative;
 }
+
+.labels , .inputs {
+  display:flex;
+  flex-direction:column;
+}
+
+.no-data{
+  display: block;
+  left: 20pc;
+  position: relative;
+}
+
 /*w3 */
 table {
     margin: 0 auto;
@@ -195,20 +215,26 @@ table {
   #name{
     /* margin-top: 5px !important; */
     width: 113px;
+    margin-right: 0px;
+    z-index: 1;
   }
 
   .names{
     display: flex;
-    place-items: center;
-    margin-bottom: 11px;
+    position: absolute;
+    /* place-items: center; */
+    /* margin-bottom: 11px; */
     align-items: baseline;
-    margin-top: -2px;
+    margin-top: -9px;
   }
 
   #products{
     position: absolute;
   }
 
-#myTable{
-  right:28px;
-}
+  #myTable{
+    right: 86px;
+  }
+
+
+

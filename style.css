@@ -94,11 +94,8 @@ tr {
 }
 .options {
   display: flex;
-  right: 32px !important;
-  position: relative;
   justify-content: center;
   margin-top: 20px;
-  FONT-WEIGHT: 500;
 }
 
 .hidden{
@@ -140,7 +137,7 @@ tr {
 }
 
 #date {
-  left: 29px;
+  left: -1px;
 }
 
 br{
@@ -171,7 +168,7 @@ legend{
   color: white;
   font-size: small !important;
   padding: 5px 10px;
-  left: 113px;
+  left: 109px;
   position: relative;
 }
 

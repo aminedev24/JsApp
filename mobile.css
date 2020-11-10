@@ -9,22 +9,22 @@
         /* padding : 6px !important; */
     }
 
-    #table , .options, .container{
+    #table , .options, .containerCs{
         position:relative !important;
-        left: 39px;
+        left: -10px;
     }
     #myTable {
       /* margin: 0 auto; */
-      /* right: 30px !important; */
+      right: 35px !important;
       position: relative !important;
     }
 
     td,th {
-        min-width: 4pc !important;
+        min-width: 5pc !important;
     }
 
-    .container {
-        width: 20pc !important;
+    .containerCs {
+        width: 25pc !important;
     }
 
     .product {
@@ -33,26 +33,28 @@
      }
 
     .clear {
-       margin-right: 110px !important;
+       /* margin-right: 110px !important; */
        margin-bottom: 4px;
     }
  
     #date , #price2 {
-       margin-right: 135px !important;
+       margin-right: 138px !important;
     }
   
     #date {
       width: 126px !important;
       left : 33px !important;
-      margin-right: 9pc !important;
     }
 
     .selection{
-        width:12pc;
+        /* width: 11.6pc; */
+        left: 101px;
     }
 
     #products {
         position:unset;
     }
-    
+    .no-data{
+        left: 12pc !important;
+    }
 }

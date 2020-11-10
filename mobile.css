@@ -49,6 +49,19 @@
         /* width: 11.6pc; */
         left: 101px;
     }
+    
+    
+    .left2{
+        width:300px;
+    }
+
+    .list li{
+        margin: 16px 25px;
+    }
+
+    p{
+        font-size: 18px;
+    }
 
     #products {
         position:unset;

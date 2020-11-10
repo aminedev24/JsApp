@@ -233,5 +233,60 @@ table {
     right: 86px;
   }
 
+li{
+  list-style-type: none;
+  margin-right: 20px;
+  margin: 0 2vw;
+  font-size: 3vh;
+}
+
+a{
+  text-decoration: none;
+  text-decoration: none;
+  
+  /*below I changed the color*/
+  color: black;
+  /*I added some padding*/
+  padding: 1px;
+  /*also changed the font family but that's totally irrelevant*/
+  font-family: monospace;
+}
+
+a:hover{
+  background-color: #C6E9FF;
+}
+
+nav{
+  width: 100vw;
+  background-color: #D6EFFF;
+}
+
+.navbar{
+  display: flex;
+  margin: 10px;
+  padding: 0;
+}
+
+.left2 {
+  margin: 0 auto;
+  border: 1px solid;
+  text-align: left;
+  width: 487px;
+  /* float: left; */
+}
+
+#features li{
+  list-style-type: decimal;
+}
+
+h2{
+  border-bottom:solid;
+  display:inline;
+}
+
+#tut{
+  text-decoration:underline;
+}
+
 
 
